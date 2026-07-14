@@ -1,28 +1,22 @@
+<h1 align="center">🚇 JMRC Connect</h1>
+
 <p align="center">
-<img src="./assets/github-banner.png" width="100%">
+  <img src="./public/github-cover.png" width="50%" alt="JMRC Connect Banner">
 </p>
 
-<h1 align="center">
-🚇 JMRC Connect
-</h1>
-
 <p align="center">
-A modern full-stack metro passenger platform inspired by Jaipur Metro Rail Corporation, designed to deliver a seamless digital commuting experience through intelligent route planning, smart card services, station discovery, tourist guidance, and real-time passenger support.
+A premium Smart Metro Platform inspired by Jaipur Metro Rail Corporation, designed to deliver a modern passenger-first digital experience through intelligent journey planning, smart card services, digital ticketing, complaint management, tourist assistance, and enterprise administration.
 </p>
 
 <p align="center">
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
-
-![TypeScript](https://img.shields.io/badge/TypeScript-blue?logo=typescript)
-
-![Vite](https://img.shields.io/badge/Vite-purple?logo=vite)
-
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38BDF8?logo=tailwindcss)
-
-![Responsive](https://img.shields.io/badge/Responsive-Mobile-success)
-
-![MIT](https://img.shields.io/badge/License-MIT-green)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38BDF8?logo=tailwindcss&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white)
+![Responsive](https://img.shields.io/badge/Desktop%20%7C%20Tablet%20%7C%20Mobile-success)
+![Status](https://img.shields.io/badge/Status-Private%20Portfolio-blue)
 
 </p>
 
@@ -30,260 +24,277 @@ A modern full-stack metro passenger platform inspired by Jaipur Metro Rail Corpo
 
 # 🚇 Overview
 
-JMRC Connect is a modern passenger-first metro management platform that reimagines how commuters interact with metro transportation.
+JMRC Connect is a modern Smart Metro Platform that reimagines how passengers interact with public transportation.
 
-Instead of traditional government-style interfaces, this project focuses on delivering an intuitive, responsive, and accessible experience powered by modern frontend engineering practices.
+Instead of a traditional government portal, the platform delivers a premium digital experience focused on usability, accessibility, responsive design, and scalable application architecture.
 
-The application combines journey planning, smart card management, tourist exploration, complaint handling, and administrative operations into a single unified platform.
+It brings together intelligent journey planning, smart card services, QR ticketing, passenger support, metro station discovery, tourism assistance, and enterprise administration into one unified platform.
 
-It demonstrates production-ready React architecture, reusable UI components, scalable routing, clean code organization, and responsive design.
-
----
-
-# ✨ Key Features
-
-## 🚉 Journey Planning
-
-- Smart route planner
-- Metro map integration
-- Fare estimation
-- Station search
+The project demonstrates production-oriented frontend engineering, modular architecture, reusable component systems, service/repository abstraction, authentication, and enterprise UI design.
 
 ---
 
-## 💳 Smart Card
+# ✨ Core Features
 
-- Card information
-- Recharge workflow
-- Balance interface
-- Transaction overview
+### 🚉 Journey Planning
 
----
-
-## 🗺️ Station Explorer
-
-- Complete station directory
-- Search functionality
-- Station information
-- Timings
+- Intelligent Route Planner
+- Fare Estimation
+- Route Visualization
+- Travel Duration
+- Saved Routes
+- Favorite Stations
 
 ---
 
-## 🏛️ Tourist Guide
+### 🎫 Digital Ticketing
 
-- Nearby attractions
-- Metro connectivity
-- Travel recommendations
+- QR Ticket Booking
+- Ticket History
+- Journey Summary
+- Ticket Cancellation
+- Payment Tracking
 
 ---
 
-## 🚨 Passenger Support
+### 💳 Smart Card
 
-- Complaint registration
-- Complaint tracking
-- Alerts
+- Virtual Smart Card
+- Recharge Workflow
+- Transaction History
+- Recharge Analytics
+- Balance Management
+- Auto Recharge
+
+---
+
+### 🗺️ Metro Explorer
+
+- Station Directory
+- Interactive Metro Map
+- Platform Information
+- Accessibility
+- Parking
+- Facilities
+- Metro Timings
+
+---
+
+### 🏛️ Tourist Guide
+
+- Nearby Attractions
+- Metro Connectivity
+- Smart Navigation
+- Popular Destinations
+
+---
+
+### 🚨 Passenger Services
+
+- Complaint Registration
+- Complaint Tracking
+- Notifications
 - Announcements
+- Emergency Contacts
+- Lost & Found
 
 ---
 
-## 👨‍💼 Admin Dashboard
+### 👤 Passenger Dashboard
 
-- Complaint management
-- Passenger overview
-- Dashboard analytics
-- Administrative controls
+- Personalized Dashboard
+- Smart Card Overview
+- Travel Analytics
+- Recent Payments
+- Notifications
+- Favorite Stations
 
 ---
 
-# 📸 Screenshots
+### 👨‍💼 Admin Portal
 
-| Home                             | Journey Planner                     |
-| -------------------------------- | ----------------------------------- |
-| ![](assets/screenshots/home.png) | ![](assets/screenshots/journey.png) |
+- Passenger Management
+- Complaint Resolution
+- Dashboard Analytics
+- Smart Card Monitoring
+- Reports
+- Announcements
+- Notification Center
 
-| Metro Map                       | Smart Card                       |
-| ------------------------------- | -------------------------------- |
-| ![](assets/screenshots/map.png) | ![](assets/screenshots/card.png) |
+---
 
-| Tourist Guide                       | Admin Dashboard                   |
-| ----------------------------------- | --------------------------------- |
-| ![](assets/screenshots/tourist.png) | ![](assets/screenshots/admin.png) |
+# 📱 Responsive Experience
+
+Dedicated interfaces have been designed for every screen size.
+
+### Desktop
+
+- Enterprise dashboard
+- Sidebar navigation
+- Multi-column layouts
+- Advanced analytics
+
+### Laptop
+
+- Optimized spacing
+- Compact dashboard
+- Information-dense layouts
+
+### Tablet
+
+- Collapsible sidebar
+- Touch-optimized UI
+- Two-column layouts
+
+### Mobile
+
+- Native app-inspired interface
+- Bottom navigation
+- Full-screen booking flow
+- Swipe interactions
+- Thumb-friendly navigation
 
 ---
 
 # 🏗️ Architecture
 
-```
-                 User
+```text
+Passenger / Admin
 
-                  │
+        │
 
-         React + TypeScript
+React 19 + TypeScript
 
-                  │
+        │
 
-         Reusable UI Components
+Feature Modules
 
-                  │
+        │
 
-        Metro Data & Business Logic
+Shared UI Components
 
-                  │
+        │
 
-     Passenger / Admin Modules
+Service Layer
+
+        │
+
+Repository Layer
+
+        │
+
+Supabase Backend
+
+        │
+
+PostgreSQL
+
+Future Ready
+
+↓
+
+Express + MongoDB
 ```
 
 ---
 
-# 🛠️ Tech Stack
+# ⚙️ Technology Stack
 
 ### Frontend
 
-- React
+- React 19
 - TypeScript
 - Vite
-- TailwindCSS
+- Tailwind CSS v4
+- React Router
+- TanStack Query
+- React Hook Form
+- Zod
+- Axios
 
-### UI
+### UI & Experience
 
 - shadcn/ui
-- Lucide Icons
+- Framer Motion
+- Lucide React
+- Recharts
 
-### Styling
+### Backend
 
-- CSS
-- Responsive Design
-- Dark Mode
+- Supabase
+- PostgreSQL
+- Authentication
+- Row Level Security
 
-### Development
+### Architecture
 
-- ESLint
-- Vitest
-
----
-
-# 📁 Project Structure
-
-```
-src
-│
-├── assets
-├── components
-│   ├── ui
-│   ├── Layout
-│   └── Theme
-│
-├── pages
-│   ├── Home
-│   ├── Journey Planner
-│   ├── Stations
-│   ├── Metro Map
-│   ├── Smart Card
-│   ├── Complaints
-│   ├── Tourist Guide
-│   ├── Alerts
-│   ├── Admin Dashboard
-│   └── Announcements
-│
-├── hooks
-├── lib
-├── data
-└── test
-```
+- Service Layer
+- Repository Pattern
+- Feature-Based Architecture
+- Modular Components
 
 ---
 
-# 🎯 Engineering Highlights
+# 🎨 Design System
 
-✅ Modular Architecture
-
-✅ Component-Driven Development
-
-✅ Type Safety with TypeScript
-
-✅ Mobile Responsive
-
-✅ Dark Theme
-
-✅ Reusable UI Library
-
-✅ Clean Folder Structure
-
-✅ Scalable Routing
-
-✅ Accessibility Focused
+- Enterprise UI
+- Inter Typography
+- 8px Spacing System
+- Responsive Grid
+- White Surfaces
+- Graphite Navigation
+- JMRC Brand Accent
+- Soft Shadows
+- Premium Motion Design
+- Accessible Components
 
 ---
 
-# 🚀 Performance Goals
+# 📊 Engineering Highlights
 
-- ⚡ Fast Rendering
-- 📱 Mobile First
-- ♿ Accessible
-- 🎨 Consistent UI
-- 🔍 Optimized Navigation
-
----
-
-# 💡 Why This Project?
-
-Most public transportation portals prioritize functionality but often overlook usability.
-
-JMRC Connect demonstrates how modern frontend engineering can transform public service applications into intuitive digital products that improve commuter experience without sacrificing accessibility.
-
-This project showcases scalable React architecture, thoughtful UI design, and production-oriented development practices.
+- Feature-Based Architecture
+- Repository Pattern
+- Service Layer
+- Protected Routes
+- Authentication
+- Responsive UI
+- Reusable Components
+- Lazy Loading
+- Type Safety
+- Modular Codebase
+- Accessibility
+- Modern Dashboard Design
 
 ---
 
-# 📚 What I Learned
+# 📈 Feature Matrix
 
-- Building scalable React applications
-- Type-safe frontend development
-- Designing reusable component systems
-- Responsive interface engineering
-- State organization
-- Modular project architecture
-- UI consistency
+| Feature | Passenger | Admin |
+|----------|:---------:|:-----:|
+| Authentication | ✅ | ✅ |
+| Journey Planner | ✅ | — |
+| Smart Card | ✅ | Manage |
+| QR Ticket | ✅ | Manage |
+| Recharge | ✅ | Monitor |
+| Complaints | ✅ | Resolve |
+| Notifications | ✅ | Send |
+| Dashboard | ✅ | ✅ |
+| Analytics | — | ✅ |
 
 ---
 
-# 🛣️ Future Enhancements
+# 🚀 Roadmap
 
 - Live Train Tracking
-- QR Ticket Booking
-- AI Route Suggestions
+- AI Journey Recommendations
 - Push Notifications
+- Offline Support (PWA)
 - Multi-language Support
-- Offline Access
-- Real-time Metro Status
-- Digital Wallet Integration
+- Wallet Integration
+- Express + MongoDB Migration
+- Docker Deployment
+- CI/CD Pipeline
 
 ---
 
-# ⚙️ Installation
-
-```bash
-git clone https://github.com/A-verse/JMRC-Connect
-
-cd JMRC-Connect
-
-npm install
-
-npm run dev
-```
-
----
-
-# ⭐ Support
-
-If you found this project interesting, consider giving it a ⭐ on GitHub.
-
----
-
-# 👩‍💻 Author
-
-**Anjali Kamal**
-
-Full Stack Developer
-
-Building modern web experiences with React, TypeScript, and scalable frontend architecture.
+> **Note:** This repository serves as a portfolio showcase of a private project. Certain implementation details, deployment configuration, and production assets may be omitted or simplified.
